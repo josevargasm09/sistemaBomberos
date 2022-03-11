@@ -1,0 +1,102 @@
+CRITICAL - 2022-03-10 17:05:01 --> Required parameter $from follows optional parameter $verbs
+#0 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'C:\\xampp\\htdocs...', 1017)
+#1 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(365): require_once()
+#2 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 C:\xampp\htdocs\sisbomberos\system\Config\Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 C:\xampp\htdocs\sisbomberos\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 C:\xampp\htdocs\sisbomberos\system\Config\Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 C:\xampp\htdocs\sisbomberos\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes()
+#8 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(780): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sisbomberos\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-10 17:05:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\sisbomberos\app\Config\Events.php:33) in C:\xampp\htdocs\sisbomberos\system\Debug\Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 164)
+#1 C:\xampp\htdocs\sisbomberos\system\Debug\Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-10 17:05:19 --> Required parameter $from follows optional parameter $verbs
+#0 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'C:\\xampp\\htdocs...', 1017)
+#1 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(365): require_once()
+#2 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 C:\xampp\htdocs\sisbomberos\system\Config\Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 C:\xampp\htdocs\sisbomberos\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 C:\xampp\htdocs\sisbomberos\system\Config\Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 C:\xampp\htdocs\sisbomberos\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes()
+#8 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(780): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sisbomberos\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-10 17:05:19 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\sisbomberos\app\Config\Events.php:33) in C:\xampp\htdocs\sisbomberos\system\Debug\Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 164)
+#1 C:\xampp\htdocs\sisbomberos\system\Debug\Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-10 17:05:21 --> Required parameter $from follows optional parameter $verbs
+#0 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'C:\\xampp\\htdocs...', 1017)
+#1 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(365): require_once()
+#2 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sisbomberos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 C:\xampp\htdocs\sisbomberos\system\Config\Services.php(699): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 C:\xampp\htdocs\sisbomberos\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 C:\xampp\htdocs\sisbomberos\system\Config\Services.php(696): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 C:\xampp\htdocs\sisbomberos\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes()
+#8 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(780): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\xampp\htdocs\sisbomberos\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sisbomberos\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-10 17:05:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\sisbomberos\app\Config\Events.php:33) in C:\xampp\htdocs\sisbomberos\system\Debug\Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 164)
+#1 C:\xampp\htdocs\sisbomberos\system\Debug\Exceptions.php(164): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-10 17:51:50 --> Unknown column 'Estado' in 'where clause'
+#0 C:\xampp_74\htdocs\sisbomberos\system\Database\MySQLi\Connection.php(331): mysqli->query('\n              ...')
+#1 C:\xampp_74\htdocs\sisbomberos\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 C:\xampp_74\htdocs\sisbomberos\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 C:\xampp_74\htdocs\sisbomberos\app\Models\GaleriaModel.php(9): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 C:\xampp_74\htdocs\sisbomberos\app\Controllers\Galeria.php(12): App\Models\GaleriaModel->total_g()
+#5 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(918): App\Controllers\Galeria->index()
+#6 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeria))
+#7 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_74\htdocs\sisbomberos\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 17:52:47 --> Unknown column 'Estado' in 'where clause'
+#0 C:\xampp_74\htdocs\sisbomberos\system\Database\MySQLi\Connection.php(331): mysqli->query('\n              ...')
+#1 C:\xampp_74\htdocs\sisbomberos\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 C:\xampp_74\htdocs\sisbomberos\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 C:\xampp_74\htdocs\sisbomberos\app\Models\GaleriaModel.php(9): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 C:\xampp_74\htdocs\sisbomberos\app\Controllers\Galeria.php(12): App\Models\GaleriaModel->total_g()
+#5 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(918): App\Controllers\Galeria->index()
+#6 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeria))
+#7 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_74\htdocs\sisbomberos\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 18:11:53 --> Unknown column 'Estado' in 'where clause'
+#0 C:\xampp_74\htdocs\sisbomberos\system\Database\MySQLi\Connection.php(331): mysqli->query('\n              ...')
+#1 C:\xampp_74\htdocs\sisbomberos\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('\n              ...')
+#2 C:\xampp_74\htdocs\sisbomberos\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('\n              ...')
+#3 C:\xampp_74\htdocs\sisbomberos\app\Models\GaleriaModel.php(9): CodeIgniter\Database\BaseConnection->query('\n              ...')
+#4 C:\xampp_74\htdocs\sisbomberos\app\Controllers\Galeria.php(12): App\Models\GaleriaModel->total_g()
+#5 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(918): App\Controllers\Galeria->index()
+#6 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeria))
+#7 C:\xampp_74\htdocs\sisbomberos\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_74\htdocs\sisbomberos\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
